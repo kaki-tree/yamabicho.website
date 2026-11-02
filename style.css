@@ -63,6 +63,7 @@ a {
 nav,
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -77,6 +78,16 @@ nav a,
 nav a:hover,
 .footer-links a:hover {
   color: var(--green);
+}
+
+nav a:focus-visible,
+.footer-links a:focus-visible,
+.wordmark:focus-visible,
+.button:focus-visible,
+.back-link:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
 }
 
 .hero {
@@ -422,9 +433,21 @@ nav a:hover,
   padding-left: 1.5em;
 }
 
+.policy-content ol {
+  margin: 8px 0 12px;
+  padding-left: 1.5em;
+}
+
 .policy-content a {
   color: var(--green);
   text-underline-offset: 3px;
+}
+
+.policy-content code {
+  background: #eeede5;
+  border-radius: 3px;
+  font-size: .95em;
+  padding: 2px 5px;
 }
 
 .back-link {
@@ -524,6 +547,8 @@ nav a:hover,
   }
 
   nav {
+    gap: 6px 12px;
+    flex-wrap: wrap;
     width: 100%;
   }
 
