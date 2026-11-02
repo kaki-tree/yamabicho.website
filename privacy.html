@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f6f4ee">
-  <meta name="description" content="Yamabichoのプライバシーポリシーです。">
+  <meta name="description" content="Yamabichoのプライバシーポリシー。アプリが取り扱う情報、保存先、外部サービスなどについて説明します。">
   <title>プライバシーポリシー — Yamabicho</title>
   <link rel="icon" type="image/png" href="mr-hikoyama.png">
   <link rel="stylesheet" href="style.css">
@@ -13,9 +13,11 @@
   <header class="site-header">
     <a class="wordmark" href="./" aria-label="Yamabicho ホーム">やまびこ<span>Yamabicho</span></a>
     <nav aria-label="メインナビゲーション">
-      <a href="./#about">アプリについて</a>
-      <a href="./#features">できること</a>
-      <a href="privacy.html" aria-current="page">プライバシー</a>
+      <a href="./">ホーム</a>
+      <a href="privacy.html" aria-current="page">プライバシーポリシー</a>
+      <a href="terms.html">利用規約</a>
+      <a href="account-deletion.html">アカウント削除</a>
+      <a href="mailto:yamabicho.support@gmail.com">お問い合わせ</a>
     </nav>
   </header>
 
@@ -23,69 +25,56 @@
     <div class="policy-heading">
       <p class="eyebrow">PRIVACY</p>
       <h1>プライバシーポリシー</h1>
-      <p>Yamabichoをご利用いただく際の、個人情報および利用者情報の取り扱いについて説明します。</p>
-      <p class="policy-date">制定日：2026年10月8日</p>
+      <p>Yamabichoをご利用いただく際の、情報の取り扱いについて説明します。</p>
+      <p class="policy-date">制定日：2026年11月1日／運営者：kaki_tree（活動者名）</p>
     </div>
     <article class="policy-content">
       <section>
-        <h2>1. 適用範囲</h2>
-        <p>本ポリシーは、kaki-tree（以下「開発者」）が提供する日記アプリ「Yamabicho」（以下「本アプリ」）における、利用者の情報の取り扱いに適用されます。</p>
-      </section>
-      <section>
-        <h2>2. 取得する情報</h2>
-        <p>開発者は、本アプリの提供にあたり、次の情報を取り扱います。</p>
+        <h2>1. 取得する情報</h2>
+        <p>本サービスは、機能の提供に必要な範囲で、次の情報を取得・利用します。</p>
         <ul>
-          <li><strong>利用者が作成する情報：</strong>リマインダーの内容や日時、リアクション、記録のタイトル・カテゴリ・画像・文章など。</li>
-          <li><strong>位置情報：</strong>本アプリの位置情報機能を利用する場合、端末の許可に基づいて取得する位置情報。</li>
-          <li><strong>お問い合わせ情報：</strong>サポート窓口へお問い合わせいただいた場合のメールアドレスおよびお問い合わせ内容。</li>
+          <li>アカウント情報：認証に必要な情報、ユーザー識別子、Googleアカウントの表示名</li>
+          <li>利用者が入力する情報：通知のタイトル・本文・日時、記録、カテゴリ、リアクション、選択したGoogleカレンダー予定の情報</li>
+          <li>位置情報：利用者が許可し、位置情報を含める操作または設定を有効にした場合の位置・取得時刻・精度・場所名</li>
+          <li>通知情報：通知履歴、確認時刻、通知の配信に使う端末のFCMトークン</li>
+          <li>端末内の情報：利用者が選択した画像や録音ファイル。本アプリの仕様では、これらのファイル本体は端末内に保存されます</li>
+          <li>広告関連情報：Androidで広告を表示する場合、広告SDKや同意管理機能が取り扱う情報</li>
         </ul>
+        <p>音声入力では端末の音声認識機能を利用します。認識処理に通信が伴うかどうかは、OS・端末・認識サービスの設定によって異なります。</p>
       </section>
       <section>
-        <h2>3. 利用目的</h2>
-        <p>取得した情報は、リマインダーの通知、記録の作成・表示・管理、位置情報を利用する機能の提供、お問い合わせへの対応、および本アプリの安全な運営のために利用します。</p>
+        <h2>2. 利用目的</h2>
+        <p>取得した情報は、認証、通知の作成・配信、記録や履歴の表示、位置情報を含む機能の提供、Googleカレンダー予定の表示、問い合わせ対応、広告配信・同意管理、および本サービスの維持・改善のために利用します。</p>
       </section>
       <section>
-        <h2>4. 保存と外部サービス</h2>
-        <p>本アプリのリマインダーや記録などのデータは、データの保存・同期のためにGoogle LLCが提供するFirebase Firestoreを利用して取り扱います。位置情報は、位置情報機能を利用した際に取得します。位置情報を保存する場合は、本アプリの機能提供に必要な範囲に限ります。</p>
-        <p>Firebaseのデータ取り扱いについては、<a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebaseのプライバシーとセキュリティ</a>をご確認ください。</p>
+        <h2>3. 外部サービスへの提供</h2>
+        <p>本サービスは、Googleの認証・カレンダー機能、Firebaseの認証・Firestore・Firebase Cloud Messaging、Androidの広告配信・同意管理機能などを利用します。これらのサービスに必要な情報が送信される場合があります。各サービスにおける情報の取扱いは、各事業者のプライバシーポリシーをご確認ください。</p>
       </section>
       <section>
-        <h2>5. 広告配信</h2>
-        <p>本アプリで広告サービスを導入した場合、広告の配信、表示頻度の管理、効果測定、不正利用の防止のため、広告配信事業者が広告ID等の端末識別子、端末情報、広告の表示・操作に関する情報を取得・利用することがあります。取り扱う情報や利用目的は、利用するサービスによって異なります。広告サービスの導入時には、本ポリシーにサービス名および当該事業者のプライバシーポリシー等を追記します。</p>
-        <p>広告IDは端末の設定からリセットまたは利用を制限できる場合があります。詳細は端末の設定および広告配信事業者の案内をご確認ください。</p>
+        <h2>4. 保存と管理</h2>
+        <p>アカウント情報、通知・記録・履歴などはサーバーに保存されます。画像・録音ファイル本体は端末内に保存されます。一律の保存期間は設けていません。アカウント削除依頼をサーバーが受信すると、関連ファイルの削除処理を直ちに実行します。</p>
       </section>
       <section>
-        <h2>6. 第三者への提供</h2>
-        <p>開発者は、法令に基づく場合を除き、利用者の情報を第三者に提供しません。サービスの提供に必要な範囲で、前項に記載した外部サービスを利用することがあります。</p>
+        <h2>5. アカウント削除</h2>
+        <p>アカウント削除の申請方法は、本サービス内に表示します。削除依頼をサーバーが受信すると、関連ファイルの削除処理を直ちに実行します。削除処理に猶予期間は設けていません。</p>
       </section>
       <section>
-        <h2>7. 保管と削除</h2>
-        <p>利用者の情報は、本アプリの提供に必要な期間保管します。情報の確認・削除を希望される場合は、本人確認に必要な情報を添えてサポート窓口へご連絡ください。内容を確認のうえ、合理的な期間内に対応します。法令上保存が必要な情報は、当該義務の範囲で保管することがあります。</p>
+        <h2>6. 利用者の設定</h2>
+        <p>利用者は、端末の設定から位置情報・マイク・通知などの許可を変更できます。許可しない場合、一部機能が利用できないことがあります。広告に関する同意・プライバシー設定は、アプリ内に表示される設定項目から変更できる場合があります。</p>
       </section>
       <section>
-        <h2>8. 安全管理</h2>
-        <p>開発者は、取り扱う情報への不正アクセス、漏えい、改ざん等を防止するため、適切な安全管理に努めます。</p>
-      </section>
-      <section>
-        <h2>9. 利用者による設定</h2>
-        <p>位置情報の取得は端末の設定から許可または停止できます。許可しない場合、位置情報を必要とする機能の一部が利用できないことがあります。</p>
-      </section>
-      <section>
-        <h2>10. 本ポリシーの変更</h2>
-        <p>法令の改正や本アプリの機能変更等に応じて、本ポリシーを改定することがあります。重要な変更がある場合は、本ページ等でお知らせします。</p>
-      </section>
-      <section>
-        <h2>11. お問い合わせ</h2>
-        <p>本ポリシーおよび情報の取り扱いに関するお問い合わせは、以下までご連絡ください。</p>
-        <p>開発者：kaki-tree<br>アプリ名：Yamabicho<br>メール：<a href="mailto:yamabicho.support@gmail.com">yamabicho.support@gmail.com</a></p>
+        <h2>7. 本ポリシーの変更・問い合わせ</h2>
+        <p>本ポリシーを変更する場合は、本サービス内または運営者が定める方法で告知します。個人情報の取扱いに関する問い合わせ先は<a href="mailto:yamabicho.support@gmail.com">yamabicho.support@gmail.com</a>です。</p>
       </section>
     </article>
-    <a class="back-link" href="./">← Yamabichoのホームへ戻る</a>
   </main>
 
   <footer class="site-footer">
     <a class="wordmark footer-mark" href="./">やまびこ<span>Yamabicho</span></a>
     <div class="footer-links">
+      <a href="privacy.html" aria-current="page">プライバシーポリシー</a>
+      <a href="terms.html">利用規約</a>
+      <a href="account-deletion.html">アカウント削除</a>
       <a href="mailto:yamabicho.support@gmail.com">お問い合わせ</a>
     </div>
     <small>© 2026 kaki-tree</small>
